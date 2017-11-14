@@ -1,11 +1,12 @@
 {
   "name": "object-key-mirror",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "main": "index.js",
   "homepage": "https://temilajumoke.com",
   "repository": "https://github.com/temilaj/object-key-mirror.git",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha"
+    "test": "node_modules/mocha/bin/mocha",
+    "coveralls": "NODE_ENV=test nyc npm test && nyc report --reporter=lcov --reporter=text --reporter=lcovonly || coveralls"
   },
   "keywords": [
     "Object",
@@ -18,6 +19,8 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^4.0.1"
+    "mocha": "^4.0.1",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^11.2.1"
   }
 }
