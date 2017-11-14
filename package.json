@@ -1,9 +1,9 @@
 {
   "name": "object-key-mirror",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
-  "homepage": "https://github.com/temilaj/react-webpack-starter",
-  "repository": "https://github.com/temilaj/react-webpack-starter.git",
+  "homepage": "https://temilajumoke.com",
+  "repository": "https://github.com/temilaj/object-key-mirror.git",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha"
   },

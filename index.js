@@ -1,5 +1,5 @@
 'use strict';
-var objectKeyMirror = function main(arr) {
+var mirrorKeys = function main(arr) {
   try {
     if (arr === undefined) {
       throw new Error(`objectKeyMirror: Please supply and argument.`);
@@ -16,4 +16,4 @@ var objectKeyMirror = function main(arr) {
   }
 };
 
-module.exports = objectKeyMirror;
+module.exports = mirrorKeys;
