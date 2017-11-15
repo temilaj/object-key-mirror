@@ -1,6 +1,5 @@
-var expect = require('chai').expect;
-var objectKeyMirror = require('../index');
-
+import { expect } from'chai';
+import objectKeyMirror from '../src/index';
 
 describe('objectKeyMirror', function() {
   it('should return an object when an array supplied', function() {
@@ -30,4 +29,5 @@ describe('objectKeyMirror', function() {
           smith: 'smith' 
         });
   });
+  
 });
